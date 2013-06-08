@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>cnfr</title>
+    <link href="assets/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<script src="jquery-2.0.1.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+<body onload="onload()">
+    <video id="live" width="400" height="400" autoplay style="display: none;"></video>
+    <canvas id="canvas" width="400" height="400" style="display: none;"></canvas>
+    <div id="vcdiv">
+        <h3>Remote Video</h3>
+        <img id="img1" width="400" height="400" src="upload1.jpeg">
+    </div>
+    <div id="mainContent">
+        <div id="available">
+            <h3>Available Members</h3>
+
+            <ul id="online">
+            </ul>
+
+
+        </div>
+        <div id="mainChat">
+            <div class="tabs" id="tabs">
+                <ul id="menuList">
+                    <li class="active"><a href="#mainChatTab">Common</a></li>              
+                </ul>
+                <div class="tabInner">
+                    <div id="mainChatTab"> MainTab</div>               
+                </div>
+            </div>
+            
+            <div id="input">
+                <span>
+                    <input type="text" id="msgTxt"><input type="button" id="btnSend" value="Send"><input type="button" id="btnSmilee" value="Smilee"></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+

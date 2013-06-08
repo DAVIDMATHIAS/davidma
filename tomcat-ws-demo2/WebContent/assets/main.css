@@ -1,0 +1,110 @@
+
+#available {
+    width: 200px;
+    position: fixed;
+    top: 30px;
+    left: 5px;
+    height: 460px;
+    background-color: lightcyan;
+    overflow:scroll;
+}
+
+    #available li {
+        display: list-item;
+        cursor:pointer;
+    }
+
+#vcdiv {
+    position: fixed;
+    top: 30px;
+    right: 5px;
+    background-color: lightcyan;
+}
+
+#mainChat {
+    position: fixed;
+    top: 30px;
+    left: 210px;
+    right: 410px;
+    height: 460px;
+    overflow:scroll;
+    background-color: lightblue;
+}
+
+#chatTabs {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    height: 400px;
+    background-color: lightgray;
+}
+
+
+#input {
+    position: absolute;
+    top: 410px;
+    left: 3px;
+    right: 3px;
+    height: 30px;
+    background-color: lightcyan;
+}
+
+#msgTxt {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    right: 120px;
+    height: 25px;
+}
+
+#btnSend {
+    top: 3px;
+    position: absolute;
+    right: 68px;
+}
+
+#btnSmilee {
+    top: 3px;
+    position: absolute;
+    right: 5px;
+}
+#tabs {
+    overflow:scroll;
+    background-color:lightgreen;
+}
+.tabs ul {
+    list-style: none;
+
+}
+
+.tabs ul li {
+    float: left;
+    background: #eee;
+    border: 1px #aaa solid;
+    border-bottom: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.tabs ul li.active {
+    margin-bottom: -1px;
+    padding-bottom: 6px;
+    background-color:white;
+}
+
+.tabInner {
+   
+    clear: both;
+    border: 1px solid #aaa;
+    height: 350px;
+    overflow: hidden;
+    background: #eee;
+}
+
+.tabInner div {
+    height: 370px;
+    padding: 10px;
+    overflow:scroll;
+
+}
